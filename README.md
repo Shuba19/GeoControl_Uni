@@ -1,5 +1,6 @@
 # GeoControl API
-
+###
+This is a copy of a gitlab repo used for a group project for an Univerisity exam (Software Engineering)
 ## Installation and Setup
 
 ### Prerequisites
@@ -313,3 +314,4 @@ import { UserRepository } from "../repositories/UserRepository";
 All API endpoints include `/v1/` in their URL paths (e.g., `/api/v1/users`).
 
 This approach allows for backward compatibility when introducing breaking changes in the future. If a newer version of an endpoint requires different input parameters or returns a different response structure, a new version (e.g., `/api/v2/users`) can be created while keeping the old version operational. This prevents service disruptions for existing clients that depend on previous API versions.
+
